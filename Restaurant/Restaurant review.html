@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Take me out</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <h1>Take me out</h1>
+            <div id=filter>
+            
+                <select name="" id="selectBoxFrom" style="font-size:150%;color: orange;">
+                    <!-- <option value="" selected disabled hidden>From</option> -->
+                    <option value="1" style="font-size:150%;color: orange;">1★</option>
+                    <option value="2" style="font-size:150%;color: orange;">2★</option>
+                    <option value="3" style="font-size:150%;color: orange;">3★</option>
+                    <option value="4" style="font-size:150%;color: orange;">4★</option>
+                    <option value="5" style="font-size:150%;color: orange;">5★</option>
+                </select>
+                <button id="filterButton">Filter rating</button>
+                <select name="" id="selectBoxTo" style="font-size:150%;color: orange;">
+                    <option value="" selected disabled hidden>To</option>
+                    <option value="1" style="font-size:150%;color: orange;">1★</option>
+                    <option value="2" style="font-size:150%;color: orange;">2★</option>
+                    <option value="3" style="font-size:150%;color: orange;">3★</option>
+                    <option value="4" style="font-size:150%;color: orange;">4★</option>
+                    <option value="5" style="font-size:150%;color: orange;">5★</option>
+                </select>
+            </div>
+        </nav>
+        <div id="side-bar">
+            <section class="restaurantForms container" >
+                <div id="photo1" class="photo"></div>
+            </section>
+            <section class="restaurantForms container">
+                <div id="photo2" class="photo"></div>
+            </section>
+            <section class="restaurantForms container">
+                <div id="photo3" class="photo"></div>   
+            </section>
+            <section class="restaurantForms container">
+                <div id="photo4" class="photo"></div>
+            </section>
+            <section class="restaurantForms container">
+                <div id="photo5" class="photo"></div>
+            </section>
+        </div>
+        <div id="map" class="top">
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="IndexTest2.js">
+        </script>
+        <script src="fetch.js">
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap"></script>
+    </body>
+</html>  

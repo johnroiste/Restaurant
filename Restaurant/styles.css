@@ -1,0 +1,387 @@
+body {
+    background-color: #f8e26b;
+    margin: 0;
+}
+
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f8c06b;
+    height: 100px;
+    text-align: center;
+    /* border: 2.5px solid #6BA3F8; */
+}
+
+#filter{
+    width: 455px;
+    height: 20px;
+    margin-top: -50px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    margin-right: 12%;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: #ffb01f; */
+}
+
+.container:nth-child(2n){
+    background: rgb(241, 241, 241);
+}
+
+.photo{
+    order:2;
+    height: 120px;
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+    background-size: cover;
+    /* flex: 1 0; */
+    
+}
+
+h2{
+    order: 1;
+    flex-direction: row;
+    width: 100%;
+    margin-top: - 10px;
+    text-align: center;
+}
+
+.address{
+    order: 2;
+    width: 160px;
+    float: left;
+    margin-left: 10px;
+    /* flex: start; */
+}
+
+span{
+    order: 3;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button{
+    order: 5;
+}
+
+p{
+    order: 4;
+    width: 100%;
+}
+
+li{
+    float: left;
+}
+
+p{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color when hovered over*/
+li a:hover {
+    background-color: #f86b98;
+}
+
+#map {
+    height: 800px;
+    width: 65%;
+    margin-left: 5px;
+    /* margin-right: auto; */
+    margin-top: 5px;
+    /* z-index: 1; */
+}
+
+#side-bar{
+    background-color: white;
+    height: 800px;
+    width: 34%;
+    float: right;
+    margin-left: none;
+    /* overflow: scroll; */
+    overflow-y:scroll;
+}
+
+#filter{
+    width: 300px;
+    float: right;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 100px;
+    background-color: #f8e26b;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;   
+    font-size: large;
+}
+
+.filter{
+    visibility: visible;
+}
+
+#filterButton{
+    font-size: large;
+    height: 30px;
+}
+
+#selectBoxFrom{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid black;
+    margin-top: 1px;
+}
+
+#selectBoxTo{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 1px;
+}
+
+#photo1{
+    background-image: url(bistro.jfif);
+    height: 120px;
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+    background-size: cover;
+}
+
+#photo2{
+    background-image: url(GoreyTheBookCafeandBistro.jpg);
+    height: 120px;
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+    background-size: cover;
+}
+
+#photo3{
+    background-image: url(table41.png);
+    height: 120px;
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+    background-size: cover;
+}
+
+#photo4{
+    background-image: url(Thekitchen.jpg);
+    height: 120px;
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+    background-size: cover;
+}
+
+#photo5{
+    background-image: url(kingcod.jpg);
+    height: 120px;
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+    background-size: cover;
+}
+
+.top{
+    position: absolute;
+    z-index: 2;
+}
+
+.restaurantForms{
+    border: 2.5px solid #6BA3F8;
+    padding: 10px;
+    position: relative;
+    border-top: 2.5px;
+}
+
+/* .cards{
+    width: 50%;
+    margin-left: 50%;
+} */
+
+.forms{
+    padding:10px;
+    width: 50%
+
+}
+
+.rightAlign{
+    text-align: right;
+}
+
+button{
+    height: 20px;
+}
+
+#formBox {
+    display:block;
+    width: 270px;
+    height: 170px;
+    background-color: #ffb01f;
+  }
+
+#googleInfo{
+    width: 300px;
+    background-color: #ffb01f;
+    display: block;
+    /* width = "250px"; */
+    padding: 10px;
+}
+
+#infoPhoto{
+    width: 190px;
+    height: 130px;
+}
+
+#infoAdd{
+    width: 100px;
+    margin-left: 5px;;
+    float: right;
+}
+
+  input{
+    display: block;
+    margin: auto;
+  }
+
+  label{
+    margin-left: 20%;
+  }
+
+  .button{
+    margin-left: 30%;
+    margin-top: 10px;
+  }
+
+  span.stars, span.stars span {
+    display: block;
+    background: url(stars.png) 0 -16px repeat-x;
+    width: 80px;
+    height: 16px;
+}
+
+ *{
+     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+     color : #808080;
+ }
+
+ .hero {
+    width: 100%;
+    height: auto;
+    max-height: 166px;
+    display: block;
+  }
+ 
+  .headerInfowindow {
+      display: inline-block;
+      width: 100px;
+      margin-top: -10px;
+      margin-left: 30%;
+      font-size: x-large;
+  }
+
+  .window{
+      background-color: #ffb01f;
+      display: block;
+      width: 300px;
+      height: 220px;
+      padding: 10px;
+      position: relative;
+  }
+
+  .Italics{
+      font-style: italic;
+  }
+
+  .rating{
+    font-size: large;
+  }
+
+  .inputReview{
+      position: absolute;
+      margin-top: 330px;
+      width: 200px;
+  }
+
+  .inputReviewNew{
+      margin-top: -20px;
+      width: 200px;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .windowImage{
+      height: 115px;
+      width: 170px;
+      margin-right: -50%;
+      float: left;
+  }
+
+  .windowButton{
+      order: 3;
+      position: absolute;
+      /* margin-top: 20px; */
+  }
+
+  .windowAddress{
+      width: 100px;
+      float: right;
+      margin-top: -5px;
+      margin-left: 20px;
+  }
+
+  .windowRatings{
+      position: absolute;
+      margin-top: 120px;
+  }
+
+  h3{
+      margin-top: -5px;
+  }
+
+  .imageRestaurant{
+    width: 150px;
+    height: 100px;
+    margin-top: -20px;
+    border: 5px solid brown;
+    margin-left: 5px;
+    border-radius: 5px;
+  }
+
+#photo{
+    margin-top: 90px;
+}
+
+#header{
+    text-align: center;
+}

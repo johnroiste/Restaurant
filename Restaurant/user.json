@@ -1,0 +1,49 @@
+
+[
+    {
+        "restaurantName": "The Bistro",
+        "address": "The Avenue, Gorey corporation lands, Gorey, Co. Wexford",
+        "lat": 52.67493,
+        "long": -6.29567,
+        "photo": "bistro.jfif",
+        "ratings": 3,
+        "comment": "Food is amazing"
+    },
+    {
+        "restaurantName": "The Book Café and Bistro",
+        "address": "85 Main St, Gorey corporation lands, Gorey, Co. Wexford",
+        "lat": 52.67602067039871,
+        "long": -6.292457693814238,
+        "photo": "GoreyTheBookCafeandBistro.jpg",
+        "ratings": 4,
+        "comment":"Cosy little cafe with nice cakes and drinks."
+    },
+    {
+        "restaurantName": "Table Forty One",
+        "address": "41 Main St, Gorey corporation lands, Gorey, Co. Wexford, Y25 E1X7",
+        "lat": 52.67559783545375,
+        "long": -6.29556905620563,
+        "photo": "table41.png",
+        "ratings": 5,
+        "comment":"Very nice place and good service."
+    },
+    {
+        "restaurantName": "The Kitchen @ Gorey",
+        "address": "4 N Parade, Gorey corporation lands, Gorey, Co. Wexford, Y25 DP22",
+        "lat": 52.67622048683541,
+        "long": -6.295894013197748,
+        "photo": "Thekitchen.jpg",
+        "ratings": 3,
+        "comment":"Food is great, however the service was not the most prompt."
+    },
+    {
+        "restaurantName": "King Cod",
+        "address": "John St., Gorey corporation lands, Gorey, Co. Wexford, Y25 E1X7",
+        "lat": 52.676818951162915, 
+        "long": -6.294005738174621,
+        "photo": "kingcod.jpg",
+        "ratings": 2,
+        "comment":"Best take away food in Gorey."
+    }
+
+]
